@@ -1,0 +1,28 @@
+.container.is-fluid {
+    width: 80%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+    @include bp(mobile-and-tablet) {
+      padding-right: 1rem;
+      padding-left: 1rem;
+      width: 100%;
+    }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.main-card {
+  @include bp(mobile) {
+    padding: 0;
+    box-shadow: none;
+
+    .card-content {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "nav": {
+      "start": "Start",
+      "about": {
+          "main": "Om stugan",
+          "description": "Information",
+          "faq": "FAQ"
+      },
+      "find": {
+        "main": "Hitta hit",
+        "travelPlanner": "Reseplanerare",
+        "map": "Karta"
+      },
+      "explore": {
+          "main": "Upplev Gräsö",
+          "activities": "Aktiviteter",
+          "sights": "Sevärdheter",
+          "events": "Event",
+          "food": "Mat / uteliv"
+      },
+      "book": "Boka",
+      "contact": "Kontakt",
+      "readMore": "Läs mer",
+      "showMore": "Visa mer",
+      "showLess": "Visa mindre",
+      "loading": "Laddar"
+  },
+
+  "footer": {
+    "menu": "Meny",
+    "links": "Länkar",
+    "by": "av",
+    "about": "På denna webbplatsen kan du utforska stugan och närområdet samt planera din resa.",
+    "book": "Du kan boka stugan via",
+    "login": "Logga in"
+  },
+
+  "booking": {
+    "title": "Boka",
+    "text": "Boka huset via",
+    "visitors": "Besökare",
+    "nights": "Uthyrda nätter",
+    "reviews": "Omdömen",
+    "by": "av",
+    "loading": "Laddar recensioner..."
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "text": "Kontakta oss om du har frågor innan eller under din vistelse så hjälper vi dig så fort som möjligt!",
+    "name": "Namn",
+    "email": "Email",
+    "message": "Meddelande",
+    "send": "Skicka",
+    "sendSuccess": "Meddelande skickat!"
+  },
+
+  "startpage": {
+    "intro": {
+      "title": "Boka",
+      "text": "Nyhem 15",
+      "slogan": "En stuga i naturen"
+    },
+    "about": {
+      "title": "Om stugan",
+      "text": "Här bor ni bekvämt med öppen planlösning mellan kök och vardagsrum, tre olika sovrum, två toaletter, en dusch och en stor altan med trevliga utemöbler."
+    },
+    "find": {
+      "title": "Hitta hit",
+      "text": "Med en kort färjetur från Öregrund kommer ni till Gräsö och Nyhem 15"
+    },
+    "explore": {
+      "title": "Upplev Gräsö",
+      "text": "På Gräsö kan ni utforska mycket på cykel och till fots, vandra i vackra naturreservat som Gräsö gård där korna betar längs med strandkanten. Ta en båttur till närliggande skärgårdsöar, hyr kanot eller vattenskoter, utforska alla fantastiska badplatser och hitta just era favoritställen."
+    }
+  },
+
+  "aboutpage": {
+    "intro": "Se information om stugan och dess historia",
+    "description": {
+      "main": "Intro",
+      "intro": "Här bor ni bekvämt med öppen planlösning mellan kök och vardagsrum, tre sovrum, två toaletter, en dusch och en stor altan med trevliga utemöbler. Huset är 145㎡ stort.",
+      "rules": {
+          "main": "Regler",
+          "check-in": "Checka in",
+          "check-out": "Checka ut",
+          "loading": "Laddar regler..."
+      },
+      "facilities": {
+          "main": "Funktioner & tjänster",
+          "loading": "Laddar funktioner & tjänster..."
+      },
+      "floorplan": "Planlösning",
+      "rooms": "Rum",
+      "loading": "Laddar rum..."
+    },
+    "faq": {
+      "loading": "Laddar frågor..."
+    }
+  },
+
+  "findpage": {
+    "intro": "Hitta stugan och planera din resa.",
+    "travelplanner": {
+      "public": {
+        "main": "Kollektivt",
+        "search": "Sök resa",
+        "from": "Från",
+        "to": "Till",
+        "searchStation": "Sök hållplats",
+        "date": "Datum",
+        "time": "Tid",
+        "departure": "Avgång",
+        "stations": "stationer",
+        "walk": "Gå",
+        "nyhem15": "Gå sedan vidare till",
+        "nyhem152": "Det är ca 3,5km som tar ungefär 40 minuter att gå."
+      },
+      "car": {
+        "main": "Bil",
+        "directions": "Vägbeskrivning",
+        "oregrund1": "Åk till",
+        "oregrund2": "Sök resa från valfri hållplats:",
+        "timetable": "Se tidtabell",
+        "graso": "Ta färjan över till",
+        "nyhem15": "Åk sedan vidare till",
+        "nyhem152": "via Idövägen"
+      },
+      "boat": {
+        "main": "Båt",
+        "directions": "Vägbeskrivning",
+        "mooring": {
+          "main": "Båtplats",
+          "text": "Åk till båtplatsen. Det finns en privat båtplats att låna under vistelsen."
+        },
+        "nyhem15": "Gå från båtplatsen till Nyhem 15. Det tar ca 10 minuter. "
+      }
+    }
+  },
+
+  "explorepage": {
+    "intro": "Läs våra tips för att uppleva Gräsö på bästa sätt.",
+    "error": {
+      "noTips": "Det finns inga tips under denna kategorin ännu"
+    },
+    "loading": "Laddar tips...",
+    "map": "Karta",
+    "website": "Webbplats"
+  }
+}

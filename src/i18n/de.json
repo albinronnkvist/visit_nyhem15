@@ -1,0 +1,150 @@
+{
+  "nav": {
+      "start": "Start",
+      "about": {
+          "main": "Über die Hütte",
+          "description": "Information",
+          "faq": "FAQ"
+      },
+      "find": {
+        "main": "Finden Sie hier",
+        "travelPlanner": "Reiseplaner",
+        "map": "Karte"
+      },
+      "explore": {
+          "main": "Gräsö erleben",
+          "activities": "Aktivitäten",
+          "sights": "Sehenswürdigkeiten",
+          "events": "Veranstaltung",
+          "food": "Essen / Nachtleben"
+      },
+      "book": "Reservieren",
+      "contact": "Kontakt",
+      "readMore": "Weiterlesen",
+      "showMore": "Mehr anzeigen",
+      "showLess": "Weniger anzeigen",
+      "loading": "Laden"
+  },
+
+  "footer": {
+    "menu": "Menü",
+    "links": "Verknüpfungen",
+    "by": "von",
+    "about": "Auf dieser Website können Sie das Ferienhaus und die Umgebung erkunden und Ihre Reise planen.",
+    "book": "Sie können das Ferienhaus buchen über",
+    "login": "Einloggen"
+  },
+
+  "booking": {
+    "title": "Reservieren",
+    "text": "Buchen Sie das Haus über",
+    "visitors": "Besucher",
+    "nights": "Vermietete Nächte",
+    "reviews": "Bewertungen",
+    "by": "von",
+    "loading": "Bewertungen werden geladen..."
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "text": "Kontaktieren Sie uns, wenn Sie vor oder während Ihres Aufenthalts Fragen haben und wir werden Ihnen so schnell wie möglich helfen!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Botschaft",
+    "send": "Senden",
+    "sendSuccess": "Nachricht gesendet!"
+  },
+
+  "startpage": {
+    "intro": {
+      "title": "Reservieren",
+      "text": "Nyhem 15",
+      "slogan": "Ein Häuschen in der Natur"
+    },
+    "about": {
+      "title": "Über die Hütte",
+      "text": "Hier wohnen Sie komfortabel mit einem offenen Grundriss zwischen Küche und Wohnzimmer, drei verschiedenen Schlafzimmern, zwei Toiletten, einer Dusche und einer großen Terrasse mit schönen Gartenmöbeln."
+    },
+    "find": {
+      "title": "Finden Sie hier",
+      "text": "Mit einer kurzen Fährfahrt von Öregrund erreichen Sie Gräsö und Nyhem 15"
+    },
+    "explore": {
+      "title": "Gräsö erleben",
+      "text": "Auf Gräsö können Sie mit dem Fahrrad und zu Fuß viel erkunden, in wunderschönen Naturschutzgebieten wie dem Bauernhof Gräsö spazieren, wo die Kühe am Ufer grasen. Machen Sie eine Bootsfahrt zu den nahegelegenen Schären, mieten Sie ein Kanu oder Jetski, erkunden Sie alle fantastischen Badestellen und finden Sie Ihre Lieblingsplätze."
+    }
+  },
+
+  "aboutpage": {
+    "intro": "Siehe Informationen über das Haus und seine Geschichte",
+    "description": {
+      "main": "Einführung",
+      "intro": "Hier wohnen Sie komfortabel mit einem offenen Grundriss zwischen Küche und Wohnzimmer, drei Schlafzimmern, zwei Toiletten, einer Dusche und einer großen Terrasse mit schönen Gartenmöbeln. Das Haus ist 145㎡ groß.",
+      "rules": {
+          "main": "Regeln",
+          "check-in": "Einchecken",
+          "check-out": "Auschecken",
+          "loading": "Laden der regeln..."
+      },
+      "facilities": {
+          "main": "Funktionen & Dienstleistungen",
+          "loading": "Laden der funktionen & dienstleistungen..."
+      },
+      "floorplan": "Gebäudeplan",
+      "rooms": "Zimmer",
+      "loading": "Laden der Räume..."
+    },
+    "faq": {
+      "loading": "Laden der fragen..."
+    }
+  },
+
+  "findpage": {
+    "intro": "Finden Sie das Ferienhaus und planen Sie Ihre Reise.",
+    "travelplanner": {
+      "public": {
+        "main": "Öffentlicher Verkehr",
+        "search": "Suche reisen",
+        "from": "Aus",
+        "to": "Zu",
+        "searchStation": "Finde eine Haltestelle",
+        "date": "Datum",
+        "time": "Zeit",
+        "departure": "Abfahrt",
+        "stations": "stationen",
+        "walk": "Gehen",
+        "nyhem15": "Dann weiter zu",
+        "nyhem152": "Es sind etwa 3,5 km, die zu Fuß etwa 40 Minuten dauern."
+      },
+      "car": {
+        "main": "Wagen",
+        "directions": "Richtungen",
+        "oregrund1": "Gehe zu",
+        "oregrund2": "Suche nach Reisen von jeder Haltestelle:",
+        "timetable": "Siehe Fahrplan",
+        "graso": "Nehmen Sie die Fähre nach",
+        "nyhem15": "Dann weiter zu",
+        "nyhem152": "über Idövägen"
+      },
+      "boat": {
+        "main": "Boot",
+        "directions": "Richtungen",
+        "mooring": {
+          "main": "Bootsanlegeplatz",
+          "text": "Gehen Sie zum Liegeplatz. Es gibt einen privaten Liegeplatz, den Sie während Ihres Aufenthalts ausleihen können."
+        },
+        "nyhem15": "Gehen Sie von der Anlegestelle nach Nyhem 15. Die Fahrt dauert etwa 10 Minuten."
+      }
+    }
+  },
+
+  "explorepage": {
+    "intro": "Lesen Sie unsere Tipps, um Gräsö optimal zu erleben.",
+    "error": {
+      "noTips": "Es gibt noch keine Tipps in dieser Kategorie"
+    },
+    "loading": "Tipps zum Laden...",
+    "map": "Karte",
+    "website": "Webseite"
+  }
+}

@@ -1,0 +1,150 @@
+{
+    "nav": {
+        "start": "Start",
+        "about": {
+            "main": "About the cottage",
+            "description": "Information",
+            "faq": "FAQ"
+        },
+        "find": {
+            "main": "Find it",
+            "travelPlanner": "Travel planner",
+            "map": "Map"
+        },
+        "explore": {
+            "main": "Experience Gräsö",
+            "activities": "Activities",
+            "sights": "Sights",
+            "events": "Events",
+            "food": "Food / going out"
+        },
+        "book": "Book",
+        "contact": "Contact",
+        "readMore": "Read more",
+        "showMore": "Show more",
+        "showLess": "Show less",
+        "loading": "Loading"
+    },
+
+    "footer": {
+        "menu": "Menu",
+        "links": "Links",
+        "by": "by",
+        "about": "This website is made for finding and exploring the cottage, and it's nearby surroundings.",
+        "book": "You can book the cottage via",
+        "login": "Log in"
+    },
+
+    "booking": {
+        "title": "Book",
+        "text": "Book the cottage via",
+        "visitors": "Visitors",
+        "nights": "Rented nights",
+        "reviews": "Reviews",
+        "by": "by",
+        "loading": "Loading reviews..."
+    },
+
+    "contact": {
+        "title": "Contact",
+        "text": "Contact us if you have questions before or during your stay and we will help you as soon as possible!",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send",
+        "sendSuccess": "Message sent successfully!"
+    },
+
+    "startpage": {
+        "intro": {
+            "title": "Book",
+            "text": "Nyhem 15",
+            "slogan": "A cottage surrounded by nature"
+        },
+        "about": {
+            "title": "About the cottage",
+            "text": "Here you live comfortably with an open floor plan between kitchen and living room, three different bedrooms, two toilets, a shower and a large terrace with nice outdoor furniture."
+        },
+        "find": {
+            "title": "Find it",
+            "text": "With a short ferry ride from Öregrund you will reach Gräsö and Nyhem 15"
+        },
+        "explore": {
+            "title": "Experience Gräsö",
+            "text": "On Gräsö you can explore a lot by bike and on foot, walk in beautiful nature reserves such as Gräsö farm where the cows graze along the shoreline. Take a boat trip to nearby archipelago islands, rent a canoe or jet ski, explore all the fantastic bathing spots and find just your favorite places."
+        }
+    },
+
+    "aboutpage": {
+        "intro": "Read about the cottage and it's history.",
+        "description": {
+            "main": "Intro",
+            "intro": "Here you live comfortably with an open floorplan between the kitchen and the livingroom, three bedrooms, two toilets, a shower and a big terrace with nice furnitures. The house is 145㎡ big.",
+            "rules": {
+                "main": "Rules",
+                "check-in": "Check in",
+                "check-out": "Check out",
+                "loading": "Loading rules..."
+            },
+            "facilities": {
+                "main": "Features & services ",
+                "loading": "Loading features & services..."
+            },
+            "floorplan": "Floorplan",
+            "rooms": "Rooms",
+            "loading": "Loading rooms..."
+        },
+        "faq": {
+            "loading": "Loading questions..."
+        }
+    },
+
+    "findpage": {
+        "intro": "Find the cottage and plan your trip.",
+        "travelplanner": {
+            "public": {
+              "main": "Public transport",
+              "search": "Search trip",
+              "from": "From",
+              "to": "To",
+              "searchStation": "Search bus stop",
+              "date": "Date",
+              "time": "Time",
+              "departure": "Departure",
+              "stations": "stops",
+              "walk": "Walk",
+              "nyhem15": "Walk to",
+              "nyhem152": "It's about a 3,5km walk which should take no more than 40 minutes."
+            },
+            "car": {
+              "main": "Car",
+              "directions": "Directions",
+              "oregrund1": "Go to",
+              "oregrund2": "Search trip from any bus stop:",
+              "timetable": "See timetable",
+              "graso": "Take the ferry over to",
+              "nyhem15": "Proceed to",
+              "nyhem152": "via Idövägen"
+            },
+            "boat": {
+                "main": "Boat",
+                "directions": "Directions",
+                "mooring": {
+                    "main": "Mooring",
+                    "text": "Go to the mooring. There is a private mooring to borrow during your stay."
+                },
+                "nyhem15": "Walk from the mooring to Nyhem 15. It takes about 10 minutes."
+            }
+        }
+    },
+
+    "explorepage": {
+        "intro": "Read our tips for the best experience of the beautiful island.",
+        "error": {
+            "noTips": "There are no tips under this category yet"
+        },
+        "loading": "Loading tips...",
+        "map": "Map",
+        "website": "Website"
+    }
+}

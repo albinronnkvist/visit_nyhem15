@@ -1,0 +1,31 @@
+// Breakpoints
+$breakpoint-mobile: 600px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop-s: 960px;
+$breakpoint-desktop-m: 1024px;
+$breakpoint-desktop-l: 1440px;
+
+// Media queries mixin
+@mixin bp($media) {
+    @if $media == mobile {
+        @media only screen and (max-width: $breakpoint-mobile) { @content; }
+    }
+    @if $media == mobile-and-tablet {
+        @media only screen and (max-width: $breakpoint-tablet) { @content; }
+    }
+    @else if $media == tablet {
+        @media only screen and (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet) { @content; }
+    }
+    @else if $media == desktop-s {
+        @media only screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop-s) { @content; }
+    }
+    @else if $media == desktop-m {
+        @media only screen and (min-width: $breakpoint-desktop-s) and (max-width: $breakpoint-desktop-m) { @content; }
+    }
+    @else if $media == desktop-l {
+        @media only screen and (min-width: $breakpoint-desktop-m) and (max-width: $breakpoint-desktop-l) { @content; }
+    }
+    @else if $media == desktop-xl {
+        @media only screen and (min-width: $breakpoint-desktop-l) { @content; }
+    }
+}

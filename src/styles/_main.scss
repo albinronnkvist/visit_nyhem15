@@ -1,0 +1,190 @@
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$dark-green: #004D40;
+$dark-green-lighter1: lighten($dark-green, 10);
+$pink: #FA7C91;
+$brown: #363636;
+$beige-light: #D0D1CD;
+$white-darken1: #F7F7F7;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $dark-green;
+$link: $dark-green-lighter1;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $white-darken1;
+$control-border-width: 0px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Bulma Import
+@import '~bulma';
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: darken(#72ffe7, 40);
+}
+
+// Titles
+.titled {
+    font-family: "Nunito", sans-serif;
+    font-size: 4em;
+    font-weight: 400;
+    line-height: 64px;
+    margin-bottom: 3rem;
+    
+    @include bp(mobile-and-tablet) {
+        font-size: 3em;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.second-titled {
+    font-family: "Nunito", sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 64px;
+}
+
+.subtitled {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 36px;
+
+    @include bp(mobile-and-tablet) {
+        font-size: 1.2em;
+    }
+}
+
+.subtitle {
+    color: #363636;
+}
+
+p,
+ul,
+.card-footer {
+  a {
+    display: inline-block;
+    position: relative;
+    
+    &:after {    
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      background: $main-color;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+    &:hover {
+      color: $main-color;
+  
+      &:after { 
+        width: 100%; 
+        left: 0; 
+      }
+    }
+  }
+}
+
+input,
+textarea {
+  border: 1px solid $main-color !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+// Animations
+@keyframes arrow {
+    0% {
+      opacity: 1;
+    } 
+    100% {
+      opacity: 0;
+      transform: translate(-10px, -10px);
+    }
+}
+
+@keyframes gradient {
+  0%{background-position:0% 5%}
+  50%{background-position:100% 94%}
+  100%{background-position:0% 5%}
+}
+
+@keyframes bounce { 
+  to { transform: translateY(4%); } 
+}
+
+@keyframes bounce-reverse { 
+  0% { transform: translateY(4%); } 
+  100% { transform: translateY(0%);}
+}
+
+@keyframes bouncebody { 
+  to { transform: scaleX(1.03) scaleY(0.97); } 
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes spin { 
+  100% {  
+    transform:rotate(360deg); 
+  } 
+}
+
+/* Progress-bar */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #34D399;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 4px;
+}

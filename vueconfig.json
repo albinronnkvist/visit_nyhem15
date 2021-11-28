@@ -1,0 +1,8 @@
+{
+    "globalComponents": [
+        // Relative paths
+        "@/components/sections/Booking.vue",
+        "@/components/sections/Footer.vue",
+        "@/components/other/BackToTopButton.vue"
+    ]
+}
