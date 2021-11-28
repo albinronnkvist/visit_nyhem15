@@ -7,7 +7,7 @@ Website for cottage rental, built with Vue 3 Compositon API, BulmaCSS and Fireba
 ## Setup 
 
 ### Standard
-- Pull repo: _git pull https://github.com/albinronnkvist/visit_nyhem15_
+- Pull repo: _git clone https://github.com/albinronnkvist/visit_nyhem15_
 - Install packages: _npm i_
 
 ### Firebase
